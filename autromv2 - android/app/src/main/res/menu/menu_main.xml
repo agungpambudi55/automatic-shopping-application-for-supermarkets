@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Search / will display always -->
+    <item android:icon="@mipmap/ic_launcher"
+        android:id="@+id/menuHello"
+        android:title="Menu Hello"
+        android:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource"></item>
+
+</menu>
