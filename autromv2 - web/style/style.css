@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333333;
+}
+body{
+	background:url(img/bg.jpg);
+}
+
+#sidebar{
+	color:#FFFFFF;
+	position:fixed;
+	top:0px;
+	border-right:4px solid #006AB9;
+	width:200px;
+	background:#333;
+	padding-bottom:35px;
+	padding-top:20px;
+	height:100%;
+	z-index:9000;
+}
+#logo{
+	height:165px;
+	width:200px;
+	background:url(logo.png) no-repeat 15px 0px;
+	border:0px solid gray;
+}
+#datetime{
+	height:65px;
+}
+#hr{
+	color:#FFF;
+	width:48px;
+	text-align:center;
+	margin-left:30px;
+	line-height:20px;
+}
+#tgl{
+	color:#FFF;
+	float:left;
+	margin-left:30px;
+	font-size:38px;
+	width:48px;
+	line-height:34px;
+	text-align:center;
+	margin-top:5px;
+}
+#bln_thn{
+	color:#FFF;
+	line-height:16px;
+	margin-left:68px;
+	font-size:16px;
+	text-align:center;
+	margin-right:20px;
+}
+#waktu{
+	margin-top:-16px;
+	line-height:20px;
+	margin-right:20px;
+	margin-left:68px;	
+	color:#FFF;
+	font-size:18px;
+	text-align:center;
+}
+
+#content{
+	border-left:0px solid red;
+	padding:10px;
+	margin-left:204px;
+}
+#footer{
+	text-align:center;
+	line-height:17px;
+	border-top:1px solid #666;
+	position:fixed;
+	bottom:0;
+	padding-top:8px;
+	padding-bottom:8px;
+	width:200px;
+	background:#F3F3F3;
+	color:#666666;
+}
+#menu_box{
+	margin-top:20px;
+	border-top:1px solid #666;
+}
+#menu{
+	border-bottom:1px solid #666;
+	color:#FFF;
+	padding:12px;
+	text-align:center;	
+}
+.keluar{
+	background:url(logout.png) no-repeat 10px 5px; 
+	background-size:30px;
+}
+.keluar:hover{
+	cursor:pointer;
+	background:url(logout.png) no-repeat 20px 5px #666; 
+	background-size:30px;
+	transition:all ease-in 0.2s;	
+}
+.transaksi{
+	background:url(listbook.png) no-repeat 10px 5px; 
+	background-size:30px;
+}
+.transaksi:hover{
+	cursor:pointer;
+	background:url(listbook.png) no-repeat 20px 5px #666; 
+	background-size:30px;	
+	transition:all ease-in 0.2s;	
+}
+.produk{
+	background:url(bag.png) no-repeat 10px 5px; 
+	background-size:30px;
+}
+.produk:hover{
+	cursor:pointer;
+	background:url(bag.png) no-repeat 20px 5px #666; 
+	transition:all ease-in 0.2s;	
+	background-size:30px;	
+}
+.merk{
+	background:url(merk.png) no-repeat 10px 5px; 
+	background-size:30px;
+}
+.merk:hover{
+	cursor:pointer;
+	transition:all ease-in 0.2s;	
+	background:url(merk.png) no-repeat 20px 5px #666; 
+	background-size:30px;	
+}
+.chart{
+	background:url(chart.png) no-repeat 10px 5px; 
+	background-size:30px;
+}
+.chart:hover{
+	cursor:pointer;
+	transition:all ease-in 0.2s;	
+	background:url(chart.png) no-repeat 20px 5px #666; 
+	background-size:30px;	
+}
+.lokasi{
+	background:url(lokasi.png) no-repeat 10px 5px; 
+	background-size:30px;
+}
+.lokasi:hover{
+	cursor:pointer;
+	transition:all ease-in 0.2s;	
+	background:url(lokasi.png) no-repeat 20px 5px #666; 
+	background-size:30px;	
+}
+#loader{
+	margin:auto;
+	width:100px;
+	margin-top:200px;
+}
